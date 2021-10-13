@@ -1,5 +1,5 @@
 html {
-	background-color:rgba(0, 0, 0, .4);
+	background-color:rgba(0, 0, 0, .25);
 }
 
 body {
@@ -164,6 +164,25 @@ input[type="submit"]:focus {
 	box-sizing: border-box;
 	font-size: 85%;
 }
+@media screen and (max-width: 700px){
+	.main-area,
+	.sidebar
+	{
+		width: auto;
+		float: none;
+	}
+	.main-area{
+		padding-right: 0;
+	}
+}
+@media screen and (max-width: 480px){
+.container
+{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+}
+
 
 footer {
 	text-align: center;
